@@ -1,1 +1,1 @@
-# java-explore-with-me
+# java-EveryWhere-Meet
