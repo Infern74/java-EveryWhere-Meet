@@ -19,3 +19,12 @@ spring:
 logging:
   level:
     org.hibernate.type.descriptor.sql: trace
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  metrics:
+    tags:
+      application: stats-server

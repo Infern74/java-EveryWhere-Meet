@@ -1,0 +1,21 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'ewm-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['ewm-service:8080']
+        labels:
+          application: 'ewm-main-service'
+
+  - job_name: 'stats-server'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['stats-server:9090']
+        labels:
+          application: 'stats-service'
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
