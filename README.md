@@ -26,7 +26,7 @@
 * **Базы данных:** PostgreSQL, H2 (для тестирования)
 * **Микросервисы:** Spring Cloud, Feign Client
 * **Контейнеризация:** Docker, Docker Compose
-* **Сборка:** Maven, CI/CD через GitHub Actions
+* **Сборка:** Maven
 * **Тестирование:** JUnit, Mockito, интеграционные тесты
 * **Документация API:** OpenAPI 3.0 (Swagger)
 * **Валидация:** Hibernate Validator
