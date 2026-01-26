@@ -24,7 +24,7 @@
 
 * **Backend:** Java 11, Spring Boot 2.7
 * **Базы данных:** PostgreSQL, H2 (для тестирования)
-* **Микросервисы:** Spring Cloud, Feign Client
+* **Микросервисы:** Custom REST client based on RestTemplate
 * **Контейнеризация:** Docker, Docker Compose
 * **Сборка:** Maven
 * **Тестирование:** JUnit, Mockito, интеграционные тесты
